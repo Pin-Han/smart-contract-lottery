@@ -88,7 +88,7 @@ function App() {
         <h2>🎲 ETH Lottery</h2>
         <div className="info-section">
           <p className="manager-info">
-            Manager: <span className="highlight">{manager.slice(0, 5)}</span>
+            Manager: <span className="highlight">{manager}</span>
           </p>
           <p className="stats">
             Players: <span className="highlight">{players.length}</span> |
@@ -98,8 +98,7 @@ function App() {
             </span>
           </p>
           <p className="account-info">
-            Your Account:{" "}
-            <span className="highlight">{manager.slice(0, 5)}</span>
+            Your Account: <span className="highlight">{manager}</span>
           </p>
         </div>
 
