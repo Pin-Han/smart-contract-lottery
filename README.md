@@ -24,27 +24,6 @@ A decentralized lottery application built with Ethereum smart contracts and Reac
 - MetaMask or other Web3 wallet
 - Some test ETH on Sepolia network
 
-## Installation
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/eth-lottery.git
-cd eth-lottery
-```
-
-2. Install dependencies:
-
-```bash
-npm install
-```
-
-3. Start the development server:
-
-```bash
-npm run dev
-```
-
 ## Smart Contract
 
 The lottery contract includes the following main functions:
@@ -61,36 +40,6 @@ The lottery contract includes the following main functions:
 3. Enter the lottery by specifying the amount of ETH you want to send
 4. Wait for other players to join
 5. The manager can pick a winner at any time
-
-## Development
-
-### Smart Contract
-
-```bash
-# Compile contracts
-npx hardhat compile
-
-# Deploy to testnet
-npx hardhat run scripts/deploy.js --network sepolia
-```
-
-### Frontend
-
-```bash
-# Start development server
-npm run dev
-
-# Build for production
-npm run build
-```
-
-## Deployment
-
-The frontend is deployed on GitHub Pages. To deploy:
-
-1. Update the `vite.config.js` base URL
-2. Build the project: `npm run build`
-3. Deploy to GitHub Pages: `npm run deploy`
 
 ## License
 

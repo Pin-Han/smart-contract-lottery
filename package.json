@@ -1,5 +1,13 @@
 {
+  "name": "smart-contract-lottery",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "cd web && npm run dev",
+    "build": "cd web && npm run build",
+    "deploy": "gh-pages -d ./web/dist"
+  },
   "devDependencies": {
-    "gh-pages": "^6.3.0"
+    "gh-pages": "^6.0.0"
   }
 }
