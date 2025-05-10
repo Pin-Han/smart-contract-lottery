@@ -4,11 +4,9 @@ const { Web3 } = require("web3");
 
 const { interface, bytecode } = require("./compile");
 
+const secret = require("../secret");
 // deploy code will go here
-const provider = new HDWalletProvider(
-  "host hat street champion nothing rabbit box swap picture spirit chapter truth",
-  "https://sepolia.infura.io/v3/06b0bbdc307c4ac5956f25db612af49a"
-);
+const provider = new HDWalletProvider(secret.key, secret.endpoint);
 
 const web3 = new Web3(provider);
 
