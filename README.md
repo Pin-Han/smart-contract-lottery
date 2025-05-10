@@ -2,6 +2,8 @@
 
 A decentralized lottery application built with Ethereum smart contracts and React. This project demonstrates the implementation of a simple lottery system on the Ethereum blockchain.
 
+<img width="1435" alt="image" src="https://github.com/user-attachments/assets/6d453f11-7ce0-4346-ae10-216b0ebdec8e" />
+
 ## Features
 
 - 🎲 Enter the lottery by sending ETH
