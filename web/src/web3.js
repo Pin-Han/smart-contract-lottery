@@ -1,6 +1,10 @@
 import Web3 from "web3";
 
-window.ethereum.request({ method: "eth_requestAccounts" });
+try {
+  window.ethereum.request({ method: "eth_requestAccounts" });
+} catch (error) {
+  console.log(error);
+}
 
 const web3 = new Web3(window.ethereum);
 
